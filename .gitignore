@@ -1,0 +1,15 @@
+# .gitignore
+
+# Ignore Python cache files
+backend/__pycache__/
+
+# Ignore Ngrok executable
+backend/ngrok
+
+# Ignore environment variables file
+backend/.env
+
+
+
+# Ignore virtual environment folders
+venv/

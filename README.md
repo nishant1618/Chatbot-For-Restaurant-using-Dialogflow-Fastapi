@@ -62,7 +62,6 @@ This repository contains a MySQL database dump.
 
 To import this database, use the following command:
 
-    ```sh
     mysql -u [username] -p [database_name] < database_dump.sql
 
 ### Usage

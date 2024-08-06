@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tranquil Bites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="components/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <div class="welcome-content">
+            <div class="welcome-text">
+                <h1>Welcome to Tranquil Bites</h1>
+                <p>Welcome to Tranquil Bites, where culinary artistry meets serene ambiance. Nestled in the heart of the city, Tranquil Bites offers a haven for food enthusiasts seeking an unforgettable dining experience. Our restaurant prides itself on a menu that 
+                    seamlessly blends contemporary cuisine with classic flavors, using the freshest locally-sourced ingredients.</p>
+            </div>
+            <div class="welcome-image">
+                <img src="images/pizza.png" alt="welcome-image">
+            </div>
+        </div>
+    </section>
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-container">
+            <div class="menu-card">
+                <img src="images/pav-bhaji.jpg" alt="Pav Bhaji">
+                <h3>Pav Bhaji</h3>
+                <p>A spicy curry of mashed vegetables served with soft bread rolls.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/chole-bhature.jpg" alt="Chole Bhature">
+                <h3>Chole Bhature</h3>
+                <p>Spicy chickpea curry served with deep-fried bread.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/idli-sambar.jpg" alt="Idli Sambar">
+                <h3>Idli Sambar</h3>
+                <p>Steamed rice cakes served with lentil-based vegetable stew.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/mango-lassi.jpg" alt="Mango Lassi">
+                <h3>Mango Lassi</h3>
+                <p>A refreshing yogurt-based drink blended with sweet mango pulp.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/masala-dosa.jpg" alt="Masala Dosa">
+                <h3>Masala Dosa</h3>
+                <p>Crispy fermented crepe filled with spiced potato mixture.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/biriyani.png" alt="Biryani">
+                <h3>Biryani</h3>
+                <p>Fragrant rice dish cooked with aromatic spices and meat or vegetables.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/vada-pav.jpeg" alt="Vada Pav">
+                <h3>Vada Pav</h3>
+                <p>Spicy potato fritter served in a bread bun with chutneys.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/rava-dosa.jpg" alt="Rava Dosa">
+                <h3>Rava Dosa</h3>
+                <p>Crispy crepe made from semolina, served with chutney and sambar.</p>
+            </div>
+            <div class="menu-card">
+                <img src="images/samosa.jpg" alt="Samosa">
+                <h3>Samosa</h3>
+                <p>Crispy pastry filled with spiced potatoes and peas, deep-fried to perfection.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><i class="fas fa-phone"></i> 123-456-7890</p>
+                <p><i class="fas fa-envelope"></i> info@tranqilbites.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> IGIT Sarang,Dhenkanal</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="chatbot">
+        <button id="chatbot-toggle">Chat with us</button>
+    <div id="chatbot-container" style="display: none;">
+        <div id="chatbot-header">
+            <span id="chatbot-greeting">Hi, my name is Foodie</span>
+
+            <span id="chatbot-close">&times;</span>
+        </div>
+            <iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/9f2b079f-7eb1-4b0f-9b05-bcedcfeb5b0e">
+</iframe>
+            </div>
+            </div>
+
+   
+    <script src="components/script.js"></script>
+</body>
+</html>

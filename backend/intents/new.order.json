@@ -1,0 +1,144 @@
+{
+  "id": "7c22c4c3-6dcd-4694-8ed4-be9dae917788",
+  "name": "new.order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-order",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Ok, starting a new order. You can say things like \"I want two pav bhaji and one mango lassi\". Make sure to specify a quantity for every food item! Also, we have only the following items on our menu: Pav Bhaji, Chole Bhature, Idli Sambar, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa.",
+            "Starting new order. Specify food items and quantities. For example, you can say, \"I would like to order two pav bhaji and one mango lassi. Also, we have only the following items on our menu: Pav Bhaji, Chole Bhature, Idli Sambar, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa.",
+            "For Sure!!! Specify food items and quantities. For example, you can say, \"I would like to order two pav bhaji and one mango lassi. Have a look on our menu: Pav Bhaji, Chole Bhature, Idli Sambar, Mango Lassi, Masala Dosa, Biryani, Vada Pav, Rava Dosa, and Samosa."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "generate a new order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2ce7795d-497c-46ae-a2fa-7f91905aca85",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "order food",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93e4e879-9ace-4887-9e87-83dfeec9bcf8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "food order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "26f2e850-67e0-4adf-99dd-3f12daf4aa80",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "715f6bee-f95e-4be5-b987-1c66c43762c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is it possible to place a food delivery?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0e25c48e-032d-448d-9c53-1a13c1308f16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I want to order a meal.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b259f65b-724c-4411-9906-f378706a7338",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can I place a new food order?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0720a7c5-0f58-468f-8f2c-83ccdfa77e75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "I'd like to order some food.",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2d5f0371-125f-4fa5-867e-96a7666e1ab1",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

@@ -1,0 +1,109 @@
+{
+  "id": "79be3d9b-073d-4b6b-9711-e909b99c06b5",
+  "name": "track.order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "ongoing-tracking",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Definitely. What is your order id?",
+            "Sure. Please enter your order id.",
+            "Definitely. What’s your order id?",
+            "For sure!! Provide me your order id."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "check my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1644ae72-f8a4-4b12-88d9-d3e38e3c6902",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bc3143bd-df5f-424d-b5b1-17de2c38748b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track existing order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b16ef8b5-e352-4a19-883d-5e5b5e2f5b8b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "track order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65668ea9-9364-483c-85ff-19193d76fb6a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "check the status of my order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c57df4d4-d74b-452c-80ec-a47c70e543fc",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

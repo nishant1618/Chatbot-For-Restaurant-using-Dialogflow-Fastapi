@@ -1,0 +1,108 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "food-item",
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Pav Bhaji",
+      "synonyms": [
+        "Pav Bhaji",
+        "pav bhaji",
+        "bhaji pav",
+        "paw bhaji",
+        "Pav bhaji",
+        "pao bhaji"
+      ]
+    },
+    {
+      "value": "Chole Bhature",
+      "synonyms": [
+        "Chole Bhature",
+        "chole bhature",
+        "chole bhatoore",
+        "chole puri",
+        "puri chole",
+        "puri sabji",
+        "chana puri",
+        "chhole bhature",
+        "puri chhole",
+        "chhole puri"
+      ]
+    },
+    {
+      "value": "Idli Sambar",
+      "synonyms": [
+        "Idli Sambar",
+        "idli sambar",
+        "idlli sambar",
+        "sambar idli",
+        "idli chutney",
+        "idli"
+      ]
+    },
+    {
+      "value": "Mango Lassi",
+      "synonyms": [
+        "Mango Lassi",
+        "mango lasi",
+        "mango lassi",
+        "lassi",
+        "mango shake",
+        "mango yoghurt",
+        "mango drink",
+        "lasi"
+      ]
+    },
+    {
+      "value": "Masala Dosa",
+      "synonyms": [
+        "Masala Dosa",
+        "masala dosa",
+        "dosa",
+        "masal dosa",
+        "masale dosa"
+      ]
+    },
+    {
+      "value": "Biryani",
+      "synonyms": [
+        "Biryani",
+        "veg biriyani",
+        "vegetable biriyani",
+        "pulao",
+        "pulav"
+      ]
+    },
+    {
+      "value": "Vada Pav",
+      "synonyms": [
+        "Vada Pav",
+        "vada pao",
+        "wada pao",
+        "pao vada",
+        "pav vada"
+      ]
+    },
+    {
+      "value": "Rava Dosa",
+      "synonyms": [
+        "Rava Dosa",
+        "sooji dosa",
+        "rawa dosa"
+      ]
+    },
+    {
+      "value": "Samosa",
+      "synonyms": [
+        "Samosa",
+        "aloo samosa",
+        "singada",
+        "singara"
+      ]
+    }
+  ],
+  "id": "51e079a3-8b50-4932-a4ed-111f15fa79be",
+  "isOverridable": false
+}

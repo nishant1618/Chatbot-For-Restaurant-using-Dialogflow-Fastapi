@@ -1,0 +1,165 @@
+{
+  "id": "caa22435-4c6f-4ecb-98c5-7f55894eb6fe",
+  "name": "order.complete - context: ongoing-order",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [
+    "ongoing-order"
+  ],
+  "contexts": [
+    "ongoing-order"
+  ],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Awesome. Your order is placed. Here is your order id #"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6ad3ee46-2849-4a55-8795-826be3664f48",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nopes",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a916c398-9449-4019-aee7-7c33c1ee822e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "nah",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1fa8b34a-908e-477d-b4f3-d2c9fbb8f6e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "no",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd892728-afdc-4dd9-98d9-83b817445e78",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "That's it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "19f330cf-da78-491d-94d7-1296e872b2f4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Done",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "90817989-cef7-4bd2-8ebb-a734e3dd28f2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Place an order",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "152ec154-4003-4fb7-a7b1-40c9827741b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Done ordering it",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fac99c0a-34a6-4b28-b966-0287688e256e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "That's all I needed",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8a2936d-998a-4f7f-a515-bfaceea462b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Nope",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca2cb4a4-f749-4de3-ae1f-e41b84a73e0d",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": true
+}

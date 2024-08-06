@@ -1,0 +1,178 @@
+{
+  "id": "565d469c-fbfc-459d-afcf-f0ea87341cc8",
+  "name": "timing",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Our restaurant is open from 12:00 PM to 11:00 PM every day.",
+            "You can visit us any time between 12:00 PM and 11:00 PM.",
+            "We open at 12 PM and close at 11 PM.",
+            "We operate from 12 PM to 11 PM.",
+            "Our doors are open from 12:00 PM to 11:00 PM.",
+            "We're open from 12 PM to 11 PM every day."
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "give the timing of the restaurant",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc85c5a0-2611-4e31-9073-9d812e8bffea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "restaurant timing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c0c72b7-9620-45a5-8ac8-25e67f626d5d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "timing",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d35dc148-bc20-4cb0-94e5-966d5c0281a6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When can I visit the restaurant?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40e6e11d-f223-4038-8196-295a4d2f93ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you provide the daily opening hours?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6877b61-5d94-414b-9be5-b7ba6dc56e53",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What time do you start serving?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c56968fc-5b12-44ee-b4ab-493e10ddbc38",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Is the restaurant open now?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "85d4e523-f2d9-4794-93ab-4df8db9946cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Can you tell me the hours of operation?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1112bbf8-27c0-46b2-8deb-2425a842d4a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What time do you close?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "522ced4a-9740-4073-8508-0c7293ac09ff",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "When does the restaurant open?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e85137df-6de9-4cb6-902d-ba1d7edd68e8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "What are your opening hours?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b0ac23b-653d-4b64-89c6-f79ce4904447",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -62,10 +62,10 @@ This repository contains a MySQL database dump.
 
 To import this database, use the following command:
 
-```sh
-mysql -u [username] -p [database_name] < database_dump.sql
+    ```sh
+    mysql -u [username] -p [database_name] < database_dump.sql
 
-## Usage
+### Usage
 - Start the FastAPI server using the command above.
 - Run Ngrok to get an HTTPS URL for your local server.
 - Open the index.html file in a web browser to access the chatbot interface.

@@ -44,7 +44,7 @@ The chatbot application allows users to interact with a virtual assistant throug
 - Import the intents.json and entities.json files into your Dialogflow agent.
 7. Run the FastAPI server:
      ```sh
-    uvicorn backend.main:app --reload
+    uvicorn main:app --reload
 8. Expose your FastAPI server using Ngrok:
 - Download and install Ngrok from ngrok.com and move the application to the backend folder.
 - Run Ngrok to create an HTTPS tunnel to your local FastAPI server

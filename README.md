@@ -21,14 +21,25 @@ The chatbot application allows users to interact with a virtual assistant throug
 - Python 3.7 or higher
 - FastAPI
 - Dialogflow
-- Node.js (optional, for additional tooling)
+- Mysql
+
+# Database Dump
+
+This repository contains a MySQL database dump.
+
+## Import Instructions
+
+To import this database, use the following command:
+
+    mysql -u [username] -p [database_name] < database_dump.sql
+
 
 ### Installation
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/chatbot-project.git
-   cd chatbot-project
+   git clone https://github.com/nishant1618/Chatbot-For-Restaurant-using-Dialogflow-Fastapi.git
+   cd Chatbot-For-Restaurant-using-Dialogflow-Fastapi.git
 2.  Set up a virtual environment and activate it:
 3.  ```sh
     python -m venv venv
@@ -51,18 +62,12 @@ The chatbot application allows users to interact with a virtual assistant throug
     ```sh
      ngrok http 8000
 - Ngrok will provide you with a public HTTPS URL. Use this URL to set up    webhooks and test your chatbot.
+- Copy the ngrok url and paste it in the fulfilment section of dialogflow
+
+9. Go to integration in dialogflow and copy the iframe content and paste it in the html file where iframe tag is present. 
     
-9. Open the index.html file in your browser to view the frontend.
+10. Open the home.html file in your browser to view the frontend.
 
-# Database Dump
-
-This repository contains a MySQL database dump.
-
-## Import Instructions
-
-To import this database, use the following command:
-
-    mysql -u [username] -p [database_name] < database_dump.sql
 
 ### Usage
 - Start the FastAPI server using the command above.
